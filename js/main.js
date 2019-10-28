@@ -75,7 +75,7 @@ function editTask() {
 		save();
 		
 		
-		toggle(putin ,0.1, "none");
+		
 // }
 		
 		}else{
@@ -84,7 +84,6 @@ function editTask() {
 			editButton.innerHTML = "<i class='material-icons'>save</i>";
 			
 			save();
-			toggle(putin ,0.1, "none");
 		}
 		listItem.classList.toggle('editMode');
 		
